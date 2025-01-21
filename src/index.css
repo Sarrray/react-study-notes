@@ -1,0 +1,10 @@
+#root,
+body,
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
