@@ -22,7 +22,7 @@ const ProgressbarIndex = () => {
           />
         </li>
         <li>
-          <H3>実例</H3>
+          <H3>実例：前へ戻る・次へ進むボタン押下で進捗が変化</H3>
           <DivExample>
             <Example />
           </DivExample>

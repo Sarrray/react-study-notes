@@ -16,12 +16,12 @@ const MultipleSelectIndex = () => {
       <UlDescription>
         <li>selectタグのmultipleをtrueにする</li>
         <li>
-          CtrlキーとShiftキーを押しながら選択することで、複数の項目を選択可（Ctrlキー：複数選択、Shiftキー：範囲選択）
+          CtrlキーまたはShiftキーを押しながら選択することで、複数の項目を選択可（Ctrlキー：複数選択、Shiftキー：範囲選択）
         </li>
         <li>選択値はe.target.selectedOptionsのvalueに格納されている</li>
         <li>
           選択解除は実装が必要 ⇒
-          ここではセレクトボックス外が選択された場合は選択解除とした
+          ここではセレクトボックス外が選択された場合に選択解除とした
         </li>
       </UlDescription>
 
