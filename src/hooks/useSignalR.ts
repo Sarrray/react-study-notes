@@ -1,7 +1,7 @@
 import { HubConnectionState } from "@microsoft/signalr";
 import { useCallback, useEffect, useState } from "react";
-import { TReceiveContent } from "./type";
-import { createSignalRService, TServices } from "./services";
+import { TReceiveContent } from "../types/signalR";
+import { createSignalRService, TServices } from "../services/services";
 
 export const useSignalR = () => {
   const [connectionState, setConnectionState] = useState<HubConnectionState>(

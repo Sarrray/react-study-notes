@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useSignalR } from "./useSignalR";
+import { useSignalR } from "../../hooks/useSignalR";
 
 const SignalRIndex = () => {
   const { connectionState, receiveContent, currentMsg } = useSignalR();

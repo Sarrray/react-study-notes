@@ -1,10 +1,27 @@
 import styled from "styled-components";
 
 const divContainer = styled.div`
-  padding: 10px;
   min-height: 100%;
   box-sizing: border-box;
-  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: 230px 1fr;
+`;
+
+const divContainerLeft = styled.div`
+  height: 100%;
+  background-color: #efebeb;
+`;
+
+const divContainerRight = styled.div`
+  padding: 10px;
+  height: 100%;
+  box-sizing: border-box;
+`;
+
+const divOutlet = styled.div`
+  padding: 20px 10px 10px 10px;
+  height: 95%;
+  box-sizing: border-box;
 `;
 
 const hTitle = styled.h1`
@@ -35,8 +52,5 @@ const hTitle = styled.h1`
     border-bottom: solid 3px #434f60;
   }
 `;
-const divOutlet = styled.div`
-  padding: 20px 10px 10px 10px;
-`;
 
-export { divContainer, hTitle, divOutlet };
+export { divContainer, divContainerLeft, divContainerRight, hTitle, divOutlet };

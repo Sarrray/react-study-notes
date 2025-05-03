@@ -1,20 +1,5 @@
 import styled from "styled-components";
 
-const divContainer = styled.div`
-  height: 100%;
-  display: grid;
-  grid-template-columns: 230px 1fr;
-`;
-
-const divContainerLeft = styled.div`
-  height: 100%;
-  background-color: #efebeb;
-`;
-
-const divContainerRight = styled.div`
-  height: 100%;
-`;
-
 const navList = styled.nav`
   position: sticky;
   top: 5px;
@@ -56,4 +41,4 @@ const navList = styled.nav`
   }
 `;
 
-export { divContainer, divContainerLeft, divContainerRight, navList };
+export { navList };

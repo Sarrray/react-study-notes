@@ -1,5 +1,5 @@
 import { HubConnectionBuilder, HubConnectionState } from "@microsoft/signalr";
-import { TReceiveContent } from "./type";
+import { TReceiveContent } from "../types/signalR";
 
 export type TServices = {
   start(): Promise<void>;
