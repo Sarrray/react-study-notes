@@ -21,9 +21,4 @@ export const NavLists: NavType[] = [
     title: "プログレスバー",
     url: "/progressbar",
   },
-  {
-    key: "multipleselect",
-    title: "複数選択可能なselect",
-    url: "/multipleselect",
-  },
 ];

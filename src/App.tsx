@@ -7,7 +7,6 @@ import Layout from "./components/Layout/Layout";
 import { persistor, store } from "./store";
 import SignalRIndex from "./components/SignalR/SignalRIndex";
 import ProgressbarIndex from "./components/Progress/ProgressbarIndex";
-import MultipleSelectIndex from "./components/Multipleselect/MultipleSelectIndex";
 import ChatRoom from "./components/ChatRoom/ChatRoom";
 
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
               <Route path="/chat/:roomId" element={<ChatRoom />} />
               <Route path="/signalrindex" element={<SignalRIndex />} />
               <Route path="/progressbar" element={<ProgressbarIndex />} />
-              <Route path="/multipleselect" element={<MultipleSelectIndex />} />
               <Route path="*" element={<Navigate to="/home" replace />} />
             </Route>
           </Routes>
