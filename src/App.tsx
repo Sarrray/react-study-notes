@@ -1,13 +1,13 @@
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import RoomList from "./components/RoomList/RoomList";
-import Home from "./components/Home/Home";
-import Layout from "./components/Layout/Layout";
 import { persistor, store } from "./store";
-import SignalRIndex from "./components/SignalR/SignalRIndex";
-import ProgressbarIndex from "./components/Progress/ProgressbarIndex";
+import Layout from "./components/Layout/Layout";
+import Home from "./components/Homea/Home";
+import RoomList from "./components/RoomList/RoomList";
 import ChatRoom from "./components/ChatRoom/ChatRoom";
+import SignalRIndex from "./components/SignalR/SignalRIndex";
+import ProgressbarIndex from "./components/Progressa/ProgressbarIndex";
 
 const App = () => {
   return (
