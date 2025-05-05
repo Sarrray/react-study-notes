@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2024,
+    "month": 12,
+    "targetAmount": 1000
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "targetAmount": 300000
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "targetAmount": 500000
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "targetAmount": 400000
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "targetAmount": 500000
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "targetAmount": 700000
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "targetAmount": 700000
+  }
+]

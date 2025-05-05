@@ -195,16 +195,16 @@ const RoomList = () => {
                 ルーム使用のヒント
               </Typography>
               <List dense>
-                {hintMessages.map((message) => {
+                {hintMessages.map((message, index) => {
                   return (
-                    <>
+                    <div key={index}>
                       <ListItem>
                         <ListItemIcon sx={{ minWidth: 30 }}>
                           <InfoIcon fontSize="small" />
                         </ListItemIcon>
                         <ListItemText primary={message} />
                       </ListItem>
-                    </>
+                    </div>
                   );
                 })}
               </List>

@@ -26,6 +26,7 @@ const navList = styled.nav`
     a {
       align-items: center;
       display: grid;
+      grid-template-columns: 30px auto;
       height: 100%;
       width: 100%;
       text-decoration: none;
@@ -41,4 +42,9 @@ const navList = styled.nav`
   }
 `;
 
-export { navList };
+const NavIconAttr = {
+  size: 20,
+  color: "#000000",
+};
+
+export { navList, NavIconAttr };

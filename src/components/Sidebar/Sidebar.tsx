@@ -11,7 +11,10 @@ const Sidebar = () => {
         {NavLists.map((d) => {
           return (
             <li key={d.key}>
-              <NavLink to={d.url}>{d.title}</NavLink>
+              <NavLink to={d.url}>
+                {d.icon}
+                {d.title}
+              </NavLink>
             </li>
           );
         })}
