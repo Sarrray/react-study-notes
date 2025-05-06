@@ -2,7 +2,7 @@
 このプロジェクトは、React+TypeScript+Viteを使用して作成されました。
 
 ### ホームページ
-https://master.df2da2hzk5yh6.amplifyapp.com/home/
+https://program-for-me.com/home
 
 ホームページへのリンクはこちらからご確認いただけます。
 
