@@ -10,7 +10,7 @@ const Layout = () => {
       const pattern = new RegExp(`^/chat(/.*)?$`);
       return pattern.test(d.url);
     } else {
-      return d.url === location.pathname;
+      return d.url === location.pathname.replace(/\/+$/, "");
     }
   });
 
