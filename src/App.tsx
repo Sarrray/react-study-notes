@@ -9,6 +9,7 @@ import ChatRoom from "./components/ChatRoom/ChatRoom";
 import SignalRIndex from "./components/SignalR/SignalRIndex";
 import ProgressbarIndex from "./components/Progress/ProgressbarIndex";
 import Dashboard from "./components/Dashboard/Dashboard";
+import RecipeChatBot from "./components/RecipeChatBot/RecipeChatBot";
 import { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
 
@@ -23,6 +24,7 @@ const App = () => {
                 <Route index element={<Navigate to="/home" replace />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/recipechatbot" element={<RecipeChatBot />} />
                 <Route path="/chat" element={<RoomList />} />
                 <Route path="/chat/:roomId" element={<ChatRoom />} />
                 <Route path="/signalrindex" element={<SignalRIndex />} />

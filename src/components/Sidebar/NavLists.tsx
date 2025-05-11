@@ -16,6 +16,12 @@ export const NavLists: NavType[] = [
     icon: <MdDashboard {...S.NavIconAttr} />,
   },
   {
+    key: "recipechatbot",
+    title: "料理レシピBot",
+    url: "/recipechatbot",
+    icon: <MdChat {...S.NavIconAttr} />,
+  },
+  {
     key: "chat",
     title: "チャット",
     url: "/chat",

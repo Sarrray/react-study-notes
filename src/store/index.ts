@@ -3,6 +3,7 @@ import storage from "redux-persist/lib/storage/session";
 
 import chatReducer from "./chatSlice";
 import userReducer from "./userSlice";
+import recipeReducer from "./recipeSlice";
 import { configureStore } from "@reduxjs/toolkit";
 import { persistStore } from "redux-persist";
 
@@ -18,11 +19,22 @@ const userPersistConfig = {
   whitelist: ["id", "name"],
 };
 
+const recipePersistConfig = {
+  key: "recipe",
+  storage,
+  whitelist: ["ingredients", "suggestions", "selectRecipe", "modal"],
+};
+
 const persistedChatReducer = persistReducer(chatPersistConfig, chatReducer);
 const persistUserReducer = persistReducer(userPersistConfig, userReducer);
+const persistRecipeReducer = persistReducer(recipePersistConfig, recipeReducer);
 
 export const store = configureStore({
-  reducer: { chat: persistedChatReducer, user: persistUserReducer },
+  reducer: {
+    chat: persistedChatReducer,
+    user: persistUserReducer,
+    recipe: persistRecipeReducer,
+  },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
