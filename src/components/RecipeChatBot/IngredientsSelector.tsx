@@ -24,7 +24,9 @@ const IngredientsSelector = () => {
         <S.Caption>
           使用する材料を選択してください（複数選択可）
           <br />
-          選択した材料に基づいて、AIが作れる料理を自動で提案します。
+          選択した材料に基づいて、
+          <S.Marker> AIが料理を自動で提案します</S.Marker>
+          ※レスポンスに少し時間がかかります
         </S.Caption>
         {ingredientGroups.map(({ category, items }) => (
           <S.IngredientsWrapper key={category}>

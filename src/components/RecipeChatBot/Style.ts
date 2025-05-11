@@ -188,3 +188,8 @@ export const CloseButton = styled.button`
 export const ModalTitle = styled.h2`
   margin: 0;
 `;
+
+export const Marker = styled.span`
+  background: linear-gradient(transparent 60%, #ffff99 60%);
+  margin-right: 5px;
+`;

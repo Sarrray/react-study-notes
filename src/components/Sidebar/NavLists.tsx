@@ -1,3 +1,4 @@
+import { FaUtensils } from "react-icons/fa";
 import { NavType } from "../../types/nav";
 import * as S from "./Style";
 import { MdChat, MdDashboard, MdHome, MdSchool, MdSync } from "react-icons/md";
@@ -19,7 +20,7 @@ export const NavLists: NavType[] = [
     key: "recipechatbot",
     title: "料理レシピBot",
     url: "/recipechatbot",
-    icon: <MdChat {...S.NavIconAttr} />,
+    icon: <FaUtensils {...S.NavIconAttr} />,
   },
   {
     key: "chat",
